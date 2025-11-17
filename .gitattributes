@@ -1,2 +1,20 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+number1 = 7
+number2 = 4
+
+print("Printer App")
+print("This app is made by: Jarkko")
+
+print("The value of number1 is", number1)
+print("The value of number2 is", number2)
+
+multiplication = number1 * number2
+print(number1, "*", number2, "=", multiplication)
+
+addition = number1 + number2
+print(number1, "+", number2, "=", addition)
+
+division = number1 / number2
+print(number1, "/", number2, "=", division)
+
+subtraction = number1 - number2
+print(number1, "-", number2, "=", subtraction)
