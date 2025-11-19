@@ -1,0 +1,24 @@
+furniture = ["Pöytä", "Tuoli", "Kaappi", "Sohva", "Sänky"]
+
+print("Furniture list:", furniture)
+
+print("First two elements:", furniture[0:2])
+
+print("First two elements (alt):", furniture[:2])
+
+for item in furniture:
+    if item == "Sofa":
+        print("Found:", item)
+
+
+#Tehtävä 2
+
+import random
+
+thrownDiceNumbers = [random.randint(1, 6) for in range(5)]
+
+print("Dice numbers:", thrownDiceNumbers)
+
+print("Sum of dice numbers:", sum(thrownDiceNumbers))
+
+print("Highest dice number:", max(thrownDiceNumbers))
